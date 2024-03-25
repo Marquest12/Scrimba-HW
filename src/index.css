@@ -1,0 +1,51 @@
+.container{
+  display: flex;
+ flex-direction: column;
+ width: 500px;
+ background: #23252C;
+ border-radius: 10px;
+margin-left: 40%;
+
+}
+button{
+  width: 80%;
+margin-left: 10%;
+height: 50px;
+border-radius: 20px;
+border: purple;
+
+}
+.me{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+#name{
+  color: #ffff;
+  font-weight: 700;
+  font-size: 25px;
+  align-self: center;
+}
+#title{
+  color: #F3BF99;
+  font-weight: 400;
+  align-self: center;
+  font-size: 22.8px;
+  margin-top:1px;
+}
+#email{
+  margin-top:  0;
+}
+button{
+  display:flex;
+  align-items:center ;
+  justify-content: center;
+}
+.about-me{
+  margin:15% 15% 20% 15%;
+  color:white
+}
+.footer{
+background-color: grey;
+height: 10%;
+}
